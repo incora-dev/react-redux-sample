@@ -1,0 +1,37 @@
+.image-uploader__container {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: sans-serif;
+  height: calc(100vh - 112.7px); }
+
+.image-uploader__success {
+  text-align: left;
+  padding: 15px;
+  line-height: 32px; }
+  .image-uploader__success p {
+    font-size: 21px;
+    font-weight: 700; }
+
+.image-uploader__form {
+  text-align: center; }
+  .image-uploader__form__title {
+    font-weight: 300; }
+  .image-uploader__form__input {
+    text-align: center;
+    display: flex;
+    justify-content: center; }
+    .image-uploader__form__input input {
+      background: #f7f7f7;
+      padding: 10px; }
+  .image-uploader__form__btns {
+    margin-top: 15px;
+    text-align: center; }
+    .image-uploader__form__btns button {
+      font-size: 14px;
+      color: #fff;
+      padding: 10px 25px;
+      border-radius: 15px;
+      background: #005f80; }
